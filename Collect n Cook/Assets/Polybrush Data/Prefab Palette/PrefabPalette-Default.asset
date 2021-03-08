@@ -319,7 +319,7 @@ MonoBehaviour:
     name: SM_Env_TreeStump_01
   - gameObject: {fileID: 199584, guid: 3d40c4278058cb740a3d4b039105082c, type: 3}
     settings:
-      m_Strength: 50
+      m_Strength: 73.97423
       m_RotationRangeMin: {x: 0, y: 0, z: 0}
       m_RotationRangeMax: {x: 0, y: 0, z: 0}
       m_ScaleRangeMin: {x: 1, y: 1, z: 1}
