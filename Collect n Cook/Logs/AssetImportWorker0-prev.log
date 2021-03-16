@@ -1,0 +1,333 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.4f1 (becced5a802b) revision 12504301'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.867; Version 2009; 64bit' Language: 'en' Physical Memory: 16195 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+F:\Documents\Unity\2020.2.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/T1GDS230/CollectnCook/Collect n Cook
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49296
+Successfully changed project path to: F:/T1GDS230/CollectnCook/Collect n Cook
+F:/T1GDS230/CollectnCook/Collect n Cook
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 67.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.4f1 (becced5a802b)
+[Subsystems] Discovering subsystems at path F:/Documents/Unity/2020.2.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/T1GDS230/CollectnCook/Collect n Cook/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX Vega M GL Graphics (ID=0x694e)
+    Vendor:   
+    VRAM:     4044 MB
+    Driver:   24.20.11001.8003
+Initialize mono
+Mono path[0] = 'F:/Documents/Unity/2020.2.4f1/Editor/Data/Managed'
+Mono path[1] = 'F:/Documents/Unity/2020.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'F:/Documents/Unity/2020.2.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/Documents/Unity/2020.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.028140 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 131.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.634 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.034893 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.945 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1371 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.7 MB.
+System memory in use after: 149.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1833.
+Total: 4.205100 ms (FindLiveObjects: 0.876400 ms CreateObjectMapping: 0.215200 ms MarkObjects: 2.979600 ms  DeleteObjects: 0.130800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/PolygonAdventure/Prefabs/Environments/SM_Env_Lillypads_03.prefab
+  artifactKey: Guid(8ffe4fbd5383da64eb60e9e1a6029e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonAdventure/Prefabs/Environments/SM_Env_Lillypads_03.prefab using Guid(8ffe4fbd5383da64eb60e9e1a6029e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b7d2a0f199da52e1e447fa0923b18f') in 0.541548 seconds
+  Import took 0.609106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 127.173728 seconds.
+  path: Assets/PolygonAdventure/Prefabs/Environments/SM_Env_TreePine_02_Snow.prefab
+  artifactKey: Guid(76c555a8d57b63c479e8780df868ce30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonAdventure/Prefabs/Environments/SM_Env_TreePine_02_Snow.prefab using Guid(76c555a8d57b63c479e8780df868ce30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96c613dc2b64859ac64175d93cac565') in 0.027894 seconds
+  Import took 0.041518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.580055 seconds.
+  path: Assets/PolygonAdventure/Prefabs/Environments/SM_Env_TreePine_02.prefab
+  artifactKey: Guid(7b2a3b8555d398f47ba16348aaa3b3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonAdventure/Prefabs/Environments/SM_Env_TreePine_02.prefab using Guid(7b2a3b8555d398f47ba16348aaa3b3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645aef1dd658cc7325ca11b161a487d0') in 0.027411 seconds
+  Import took 0.054876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.452720 seconds.
+  path: Assets/PolygonAdventure/Prefabs/Environments/SM_Env_TreePine_01_Snow.prefab
+  artifactKey: Guid(cc70edc38920dfa49b8cccea23f74d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonAdventure/Prefabs/Environments/SM_Env_TreePine_01_Snow.prefab using Guid(cc70edc38920dfa49b8cccea23f74d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afeb34803138a6f8a74aa7e384998739') in 0.026877 seconds
+  Import took 0.030657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.394699 seconds.
+  path: Assets/PolygonAdventure/Prefabs/Environments/SM_Env_TreePine_01.prefab
+  artifactKey: Guid(cc890b11e6968444bbb9050c8b78e8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonAdventure/Prefabs/Environments/SM_Env_TreePine_01.prefab using Guid(cc890b11e6968444bbb9050c8b78e8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6a7de73e8ac0e9ec399d2e6136d3b1') in 0.024937 seconds
+  Import took 0.028312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.398564 seconds.
+  path: Assets/PolygonAdventure/Prefabs/Environments/SM_Env_TreeLog_01.prefab
+  artifactKey: Guid(e0bcb36554be1124b8a89d63037350be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonAdventure/Prefabs/Environments/SM_Env_TreeLog_01.prefab using Guid(e0bcb36554be1124b8a89d63037350be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1565956ccd87236235e1eb144d6d71f2') in 0.024922 seconds
+  Import took 0.029426 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001598 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.192 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1362 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.5 MB.
+System memory in use after: 152.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1843.
+Total: 2.813700 ms (FindLiveObjects: 0.262500 ms CreateObjectMapping: 0.081400 ms MarkObjects: 2.373600 ms  DeleteObjects: 0.094100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2715.680131 seconds.
+  path: Assets/PolygonAdventure/Prefabs/Environments
+  artifactKey: Guid(ed34094726c37f94e8a3acb7fe43faf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonAdventure/Prefabs/Environments using Guid(ed34094726c37f94e8a3acb7fe43faf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858b3a419dcad04c9833ec7705421df7') in 0.017603 seconds
+  Import took 0.391634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.806200 seconds.
+  path: Assets/PolygonAdventure/Prefabs/Environments/SM_Env_Rock_013.prefab
+  artifactKey: Guid(f44a0a8cf86c4624faaaa432ee3b78ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonAdventure/Prefabs/Environments/SM_Env_Rock_013.prefab using Guid(f44a0a8cf86c4624faaaa432ee3b78ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd5e104e296863f83b593f596d16e2b') in 0.090726 seconds
+  Import took 0.160902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.224832 seconds.
+  path: Assets/PolygonAdventure/Prefabs/Environments/SM_Env_Rock_012.prefab
+  artifactKey: Guid(f469bb5d4878e0545be36504442967ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonAdventure/Prefabs/Environments/SM_Env_Rock_012.prefab using Guid(f469bb5d4878e0545be36504442967ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4989e4abc68adee1d8459c3c7d85141d') in 0.041351 seconds
+  Import took 0.044413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.722206 seconds.
+  path: Assets/PolygonAdventure/Prefabs/Environments/SM_Env_Rock_011.prefab
+  artifactKey: Guid(33869a01d3f526a40817cb7dc480cfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonAdventure/Prefabs/Environments/SM_Env_Rock_011.prefab using Guid(33869a01d3f526a40817cb7dc480cfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2928e6f5bd015c5308edbe6a8c365169') in 0.040756 seconds
+  Import took 0.063783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003187 seconds.
+  path: Assets/PolygonAdventure/Prefabs/Environments/SM_Env_Rock_011.prefab
+  artifactKey: Guid(33869a01d3f526a40817cb7dc480cfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonAdventure/Prefabs/Environments/SM_Env_Rock_011.prefab using Guid(33869a01d3f526a40817cb7dc480cfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2928e6f5bd015c5308edbe6a8c365169') in 0.016327 seconds
+  Import took 0.019353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.788016 seconds.
+  path: Assets/PolygonAdventure/Prefabs/Environments/SM_Env_Rock_09.prefab
+  artifactKey: Guid(9211b397ed1fec54fa30bd8c8b657e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonAdventure/Prefabs/Environments/SM_Env_Rock_09.prefab using Guid(9211b397ed1fec54fa30bd8c8b657e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b105b848c90f405a89a74a474569c5c0') in 0.031175 seconds
+  Import took 0.126738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.677904 seconds.
+  path: Assets/PolygonAdventure/Prefabs/Environments/SM_Env_Rock_08.prefab
+  artifactKey: Guid(cb2f3e821d9528844b40c91c674903d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonAdventure/Prefabs/Environments/SM_Env_Rock_08.prefab using Guid(cb2f3e821d9528844b40c91c674903d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc10ffde6738819a7f7d72e7dba18a9f') in 0.227316 seconds
+  Import took 0.230284 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001371 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.963 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.5 MB.
+System memory in use after: 152.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1846.
+Total: 2.189800 ms (FindLiveObjects: 0.335700 ms CreateObjectMapping: 0.085500 ms MarkObjects: 1.684900 ms  DeleteObjects: 0.081800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3548.249071 seconds.
+  path: Assets/PolygonAdventure/Prefabs/Environments/SM_Env_Bush_04.prefab
+  artifactKey: Guid(ef6ea52561f2ccd4cbc5b746b20c8892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonAdventure/Prefabs/Environments/SM_Env_Bush_04.prefab using Guid(ef6ea52561f2ccd4cbc5b746b20c8892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2320f541371ae22cfdb63d6b0d4c34') in 0.103340 seconds
+  Import took 0.204526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000946 seconds.
+  path: Assets/PolygonAdventure/Prefabs/Environments/SM_Env_Bush_04.prefab
+  artifactKey: Guid(ef6ea52561f2ccd4cbc5b746b20c8892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonAdventure/Prefabs/Environments/SM_Env_Bush_04.prefab using Guid(ef6ea52561f2ccd4cbc5b746b20c8892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2320f541371ae22cfdb63d6b0d4c34') in 0.016927 seconds
+  Import took 0.020927 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000850 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.928 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.5 MB.
+System memory in use after: 152.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1849.
+Total: 2.001000 ms (FindLiveObjects: 0.217100 ms CreateObjectMapping: 0.081600 ms MarkObjects: 1.637800 ms  DeleteObjects: 0.062500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000863 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.876 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.5 MB.
+System memory in use after: 152.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1851.
+Total: 1.982200 ms (FindLiveObjects: 0.340900 ms CreateObjectMapping: 0.104800 ms MarkObjects: 1.468800 ms  DeleteObjects: 0.065300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001120 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.149 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.5 MB.
+System memory in use after: 152.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1853.
+Total: 2.856900 ms (FindLiveObjects: 0.398900 ms CreateObjectMapping: 0.116100 ms MarkObjects: 2.260100 ms  DeleteObjects: 0.079500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002108 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.350 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1361 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.5 MB.
+System memory in use after: 152.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1855.
+Total: 3.346600 ms (FindLiveObjects: 0.249600 ms CreateObjectMapping: 0.083600 ms MarkObjects: 2.863800 ms  DeleteObjects: 0.146100 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
