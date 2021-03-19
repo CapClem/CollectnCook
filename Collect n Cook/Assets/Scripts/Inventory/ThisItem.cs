@@ -34,7 +34,7 @@ public class ThisItem : MonoBehaviour
 
     public void DestroySelf()
     {
-        
+        Destroy(gameObject);
     }
     
     

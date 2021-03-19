@@ -14,7 +14,10 @@ public class ItemBase
         Orange,
     }
 
+    //This is how we choose what type of item the object is
     public ItemType itemType;
+    
+    //This is how we choose how many
     public int itemCount;
 
     public Sprite GetSprite()
