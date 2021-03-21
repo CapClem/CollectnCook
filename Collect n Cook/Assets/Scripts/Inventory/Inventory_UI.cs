@@ -16,12 +16,6 @@ public class Inventory_UI : MonoBehaviour
     [Tooltip("This should be set to how big you want the inventory to be x, y.")]
     public Vector2 inventoryGridSize;
 
-    private void Awake()
-    {
-        //itemSlot = transform.Find("itemSlot");
-        //itemSlotTemplate = itemSlot.Find("itemSlotTemplate");
-    }
-
     //Set the current inventory
     public void SetInventory(Inventory inventory)
     {
@@ -50,7 +44,7 @@ public class Inventory_UI : MonoBehaviour
         }
         Vector2 currentContainer = new Vector2(0, 0);
         
-        float itemContainerSize = 40f;
+        float itemContainerSize = 50f;
         
         foreach (ItemBase item in inventory.GetItems())
         {
@@ -58,7 +52,7 @@ public class Inventory_UI : MonoBehaviour
             itemSlotRectTransform.gameObject.SetActive(true);
             
             itemSlotRectTransform.anchoredPosition = new Vector2(currentContainer.x * itemContainerSize, currentContainer.y * itemContainerSize);
-            Image image = itemSlotRectTransform.Find("image").GetComponent<Image>();
+            Image image = itemSlotRectTransform.Find("Sprite").GetComponent<Image>();
             image.sprite = item.GetSprite();
             
             //This increases sideways along the item bar
@@ -68,12 +62,6 @@ public class Inventory_UI : MonoBehaviour
                 currentContainer.x = 0;
                 currentContainer.y++;
             }
-
         }
     }
-    
-    
-    
-    
-    
 }

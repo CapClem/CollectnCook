@@ -19,10 +19,8 @@ public class Inventory
         //Initialise our list
         currentItems = new List<ItemBase>();
         
-        //DEMO CODE - Adds a Apple and Orange - REMOVE BEFORE USE
-        AddItem(new ItemBase {itemType = ItemBase.ItemType.Apple, itemCount = 1});
-        AddItem(new ItemBase {itemType = ItemBase.ItemType.Orange, itemCount = 1});
-        //DEMO CODE - Adds a Apple and Orange - REMOVE BEFORE USE
+        //Example on how to add items directly to the inventory. This adds an Apple.
+        //AddItem(new ItemBase {itemType = ItemBase.ItemType.Apple, itemCount = 1});
     }
 
     public void AddItem(ItemBase item)
