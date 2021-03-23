@@ -1,0 +1,458 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.4f1 (becced5a802b) revision 12504301'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.868; Version 2009; 64bit' Language: 'en' Physical Memory: 16195 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+F:\Documents\Unity\2020.2.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/T1GDS230/CollectnCook/Collect n Cook
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61072
+Successfully changed project path to: F:/T1GDS230/CollectnCook/Collect n Cook
+F:/T1GDS230/CollectnCook/Collect n Cook
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 74.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.4f1 (becced5a802b)
+[Subsystems] Discovering subsystems at path F:/Documents/Unity/2020.2.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/T1GDS230/CollectnCook/Collect n Cook/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX Vega M GL Graphics (ID=0x694e)
+    Vendor:   
+    VRAM:     4044 MB
+    Driver:   24.20.11001.8003
+Initialize mono
+Mono path[0] = 'F:/Documents/Unity/2020.2.4f1/Editor/Data/Managed'
+Mono path[1] = 'F:/Documents/Unity/2020.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'F:/Documents/Unity/2020.2.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/Documents/Unity/2020.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003392 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 60.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.169 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000835 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.190 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1412 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.1 MB.
+System memory in use after: 151.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1875.
+Total: 3.643700 ms (FindLiveObjects: 0.359500 ms CreateObjectMapping: 0.247200 ms MarkObjects: 2.910500 ms  DeleteObjects: 0.124800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Lowpoly Style/Free Rocks and Plants/Prefabs/Reed.prefab
+  artifactKey: Guid(8e29574f61c003a45a3cc9a571582336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style/Free Rocks and Plants/Prefabs/Reed.prefab using Guid(8e29574f61c003a45a3cc9a571582336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ea78f981e42d3272ded3610f6ab3e7') in 0.482427 seconds
+  Import took 0.491541 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000963 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.230 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1403 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.9 MB.
+System memory in use after: 154.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1885.
+Total: 2.752500 ms (FindLiveObjects: 0.308500 ms CreateObjectMapping: 0.133500 ms MarkObjects: 2.237500 ms  DeleteObjects: 0.071500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002440 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.370 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1402 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.9 MB.
+System memory in use after: 154.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1887.
+Total: 5.955400 ms (FindLiveObjects: 1.765200 ms CreateObjectMapping: 0.455100 ms MarkObjects: 3.639600 ms  DeleteObjects: 0.093000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000988 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.563 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1402 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.9 MB.
+System memory in use after: 154.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1889.
+Total: 3.732200 ms (FindLiveObjects: 0.408300 ms CreateObjectMapping: 0.125700 ms MarkObjects: 3.098400 ms  DeleteObjects: 0.097200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001024 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.032 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1402 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.9 MB.
+System memory in use after: 154.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1891.
+Total: 3.054000 ms (FindLiveObjects: 0.382000 ms CreateObjectMapping: 0.193000 ms MarkObjects: 2.365300 ms  DeleteObjects: 0.111900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002024 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.272 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1402 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.9 MB.
+System memory in use after: 154.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1893.
+Total: 2.737400 ms (FindLiveObjects: 0.614700 ms CreateObjectMapping: 0.168100 ms MarkObjects: 1.857600 ms  DeleteObjects: 0.095200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001793 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.040 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1402 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.9 MB.
+System memory in use after: 154.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1895.
+Total: 4.006100 ms (FindLiveObjects: 0.259700 ms CreateObjectMapping: 0.163000 ms MarkObjects: 3.431000 ms  DeleteObjects: 0.149100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 16131.545018 seconds.
+  path: Assets/In-Game Assets and Materials
+  artifactKey: Guid(e2fb10773357c6b4cbedd9e64aba07fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/In-Game Assets and Materials using Guid(e2fb10773357c6b4cbedd9e64aba07fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304b4c0e7dd8ebd189eaa68cf59ffc99') in 0.016677 seconds
+  Import took 0.020148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.894232 seconds.
+  path: Assets/Lowpoly Style
+  artifactKey: Guid(8cb517281ed83654287312bfee25fe84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style using Guid(8cb517281ed83654287312bfee25fe84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bff88d4c303938481379cdd07fce255') in 0.012786 seconds
+  Import took 0.239408 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000950 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.241 seconds
+Platform modules already initialized, skipping
+Shader 'zerinlabs/sh_fx_CUTOUT_vegetationMoving_unlit': fallback shader 'Fx/Flare' not found
+Shader 'zerinlabs/sh_fx_ADD_cartoonWaterRipples': fallback shader 'Fx/Flare' not found
+Shader 'zerinlabs/sh_fx_ADD_cartoonWaterRipples': fallback shader 'Fx/Flare' not found
+Shader 'zerinlabs/sh_fx_CUTOUT_vegetationMoving_unlit': fallback shader 'Fx/Flare' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1414 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.6 MB.
+System memory in use after: 155.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1898.
+Total: 5.051500 ms (FindLiveObjects: 0.494100 ms CreateObjectMapping: 0.088100 ms MarkObjects: 1.713600 ms  DeleteObjects: 2.754200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000811 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.043 seconds
+Platform modules already initialized, skipping
+Shader 'zerinlabs/sh_fx_CUTOUT_vegetationMoving_unlit': fallback shader 'Fx/Flare' not found
+Shader 'zerinlabs/sh_fx_ADD_cartoonWaterRipples': fallback shader 'Fx/Flare' not found
+Shader 'zerinlabs/sh_fx_ADD_cartoonWaterRipples': fallback shader 'Fx/Flare' not found
+Shader 'zerinlabs/sh_fx_CUTOUT_vegetationMoving_unlit': fallback shader 'Fx/Flare' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1414 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.6 MB.
+System memory in use after: 155.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1900.
+Total: 7.905000 ms (FindLiveObjects: 0.192900 ms CreateObjectMapping: 0.058400 ms MarkObjects: 2.722200 ms  DeleteObjects: 4.929500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 180.543734 seconds.
+  path: Assets/In-Game Assets and Materials/ZerinLabs_shaderPack_CartoonLandscape
+  artifactKey: Guid(707e8e978319d6e4581f7a60d8d6ee09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/In-Game Assets and Materials/ZerinLabs_shaderPack_CartoonLandscape using Guid(707e8e978319d6e4581f7a60d8d6ee09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a569b48a1af7f06a8299f9d6fd57c05') in 0.016796 seconds
+  Import took 0.020494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.444020 seconds.
+  path: Assets/In-Game Assets and Materials/ZerinLabs_shaderPack_CartoonLandscape/scenes/scn_completeSampleScene.unity
+  artifactKey: Guid(df1c2df5e20951b48b3899c1db2d131b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/In-Game Assets and Materials/ZerinLabs_shaderPack_CartoonLandscape/scenes/scn_completeSampleScene.unity using Guid(df1c2df5e20951b48b3899c1db2d131b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b056321fee44bb44deeff9220002e5') in 0.025084 seconds
+  Import took 0.317164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.052961 seconds.
+  path: Assets/Scenes/MapScene.unity
+  artifactKey: Guid(b69ee22e15c61674fb6c03ba3c024d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MapScene.unity using Guid(b69ee22e15c61674fb6c03ba3c024d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e0714abea40221447072a544f6f3e3') in 1.601949 seconds
+  Import took 4.979246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.072800 seconds.
+  path: Assets/In-Game Assets and Materials/ZerinLabs_shaderPack_CartoonLandscape/materials/mat_fxSamples/mat_fx_cartoonWater_splash.mat
+  artifactKey: Guid(1b70a7be7d891044a81ebf363e256ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/In-Game Assets and Materials/ZerinLabs_shaderPack_CartoonLandscape/materials/mat_fxSamples/mat_fx_cartoonWater_splash.mat using Guid(1b70a7be7d891044a81ebf363e256ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3c11da22ca51c93f0e8e8beb823e50') in 1.484388 seconds
+  Import took 1.489464 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000899 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.022 seconds
+Platform modules already initialized, skipping
+Shader 'zerinlabs/sh_fx_CUTOUT_vegetationMoving_unlit': fallback shader 'Fx/Flare' not found
+Shader 'zerinlabs/sh_fx_ADD_cartoonWaterRipples': fallback shader 'Fx/Flare' not found
+Shader 'zerinlabs/sh_fx_ADD_cartoonWaterRipples': fallback shader 'Fx/Flare' not found
+Shader 'zerinlabs/sh_fx_CUTOUT_vegetationMoving_unlit': fallback shader 'Fx/Flare' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1414 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.9 MB.
+System memory in use after: 155.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1937.
+Total: 6.964300 ms (FindLiveObjects: 0.460900 ms CreateObjectMapping: 0.286900 ms MarkObjects: 2.623300 ms  DeleteObjects: 3.589800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006982 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.256 seconds
+Platform modules already initialized, skipping
+Shader 'zerinlabs/sh_fx_CUTOUT_vegetationMoving_unlit': fallback shader 'Fx/Flare' not found
+Shader 'zerinlabs/sh_fx_ADD_cartoonWaterRipples': fallback shader 'Fx/Flare' not found
+Shader 'zerinlabs/sh_fx_ADD_cartoonWaterRipples': fallback shader 'Fx/Flare' not found
+Shader 'zerinlabs/sh_fx_CUTOUT_vegetationMoving_unlit': fallback shader 'Fx/Flare' not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1414 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.9 MB.
+System memory in use after: 155.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1939.
+Total: 9.763400 ms (FindLiveObjects: 0.464400 ms CreateObjectMapping: 0.203700 ms MarkObjects: 3.633000 ms  DeleteObjects: 5.458000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000888 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.948 seconds
+Platform modules already initialized, skipping
+Shader 'zerinlabs/sh_fx_CUTOUT_vegetationMoving_unlit': fallback shader 'Fx/Flare' not found
+Shader 'zerinlabs/sh_fx_ADD_cartoonWaterRipples': fallback shader 'Fx/Flare' not found
+Shader 'zerinlabs/sh_fx_ADD_cartoonWaterRipples': fallback shader 'Fx/Flare' not found
+Shader 'zerinlabs/sh_fx_CUTOUT_vegetationMoving_unlit': fallback shader 'Fx/Flare' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1414 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.9 MB.
+System memory in use after: 155.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1941.
+Total: 5.595600 ms (FindLiveObjects: 0.197200 ms CreateObjectMapping: 0.077500 ms MarkObjects: 1.880000 ms  DeleteObjects: 3.439100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000801 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.848 seconds
+Platform modules already initialized, skipping
+Shader 'zerinlabs/sh_fx_CUTOUT_vegetationMoving_unlit': fallback shader 'Fx/Flare' not found
+Shader 'zerinlabs/sh_fx_ADD_cartoonWaterRipples': fallback shader 'Fx/Flare' not found
+Shader 'zerinlabs/sh_fx_ADD_cartoonWaterRipples': fallback shader 'Fx/Flare' not found
+Shader 'zerinlabs/sh_fx_CUTOUT_vegetationMoving_unlit': fallback shader 'Fx/Flare' not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1414 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.9 MB.
+System memory in use after: 155.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1943.
+Total: 7.120700 ms (FindLiveObjects: 0.371500 ms CreateObjectMapping: 0.106300 ms MarkObjects: 2.833200 ms  DeleteObjects: 3.807300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000973 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.872 seconds
+Platform modules already initialized, skipping
+Shader 'zerinlabs/sh_fx_CUTOUT_vegetationMoving_unlit': fallback shader 'Fx/Flare' not found
+Shader 'zerinlabs/sh_fx_ADD_cartoonWaterRipples': fallback shader 'Fx/Flare' not found
+Shader 'zerinlabs/sh_fx_CUTOUT_vegetationMoving_unlit': fallback shader 'Fx/Flare' not found
+Shader 'zerinlabs/sh_fx_ADD_cartoonWaterRipples': fallback shader 'Fx/Flare' not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1414 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.9 MB.
+System memory in use after: 155.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1945.
+Total: 4.747500 ms (FindLiveObjects: 0.273200 ms CreateObjectMapping: 0.067800 ms MarkObjects: 1.578500 ms  DeleteObjects: 2.826500 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -65,8 +65,21 @@
     <Compile Include="Assets\Scripts\Inventory\ItemAssets.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Inventory\PlayerInventory.cs" />
+    <Compile Include="Assets\In-Game Assets and Materials\ZerinLabs_shaderPack_CartoonLandscape\scripts\scr_mouseOrbitImproved.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\In-Game Assets and Materials\ZerinLabs_shaderPack_CartoonLandscape\shaders\sh_fx_SOLID_vegetationMoving_emissive.shader" />
+     <None Include="Assets\In-Game Assets and Materials\ZerinLabs_shaderPack_CartoonLandscape\shaders\sh_regular_SOLID_groundWorldCoords_terrain.shader" />
+     <None Include="Assets\In-Game Assets and Materials\ZerinLabs_shaderPack_CartoonLandscape\shaders\sh_fx_CUTOUT_vegetationMoving_unlit.shader" />
+     <None Include="Assets\In-Game Assets and Materials\ZerinLabs_shaderPack_CartoonLandscape\shaders\sh_fx_SOLID_vegetationMoving.shader" />
+     <None Include="Assets\In-Game Assets and Materials\ZerinLabs_shaderPack_CartoonLandscape\_help\ZerinLabs - shaderPack (CartoonLandscape) TUTORIAL.txt" />
+     <None Include="Assets\In-Game Assets and Materials\ZerinLabs_shaderPack_CartoonLandscape\shaders\sh_fx_ADD_cartoonWaterRipples.shader" />
+     <None Include="Assets\In-Game Assets and Materials\ZerinLabs_shaderPack_CartoonLandscape\shaders\sh_fx_SOLID_cartoonWaterFall.shader" />
+     <None Include="Assets\In-Game Assets and Materials\ZerinLabs_shaderPack_CartoonLandscape\shaders\sh_fx_SOLID_cartoonWater.shader" />
+     <None Include="Assets\In-Game Assets and Materials\ZerinLabs_shaderPack_CartoonLandscape\shaders\sh_fx_CUTOUT_cartoonWaterRipples.shader" />
+     <None Include="Assets\In-Game Assets and Materials\ZerinLabs_shaderPack_CartoonLandscape\shaders\sh_regular_SOLID_groundWorldCoords_props.shader" />
+     <None Include="Assets\In-Game Assets and Materials\ZerinLabs_shaderPack_CartoonLandscape\shaders\sh_fx_CUTOUT_vegetationMoving.shader" />
+     <None Include="Assets\In-Game Assets and Materials\ZerinLabs_shaderPack_CartoonLandscape\shaders\sh_fx_CUTOUT_flagAnimVert.shader" />
     <Reference Include="UnityEngine">
       <HintPath>F:\Documents\Unity\2020.2.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
