@@ -17,7 +17,7 @@ public class ItemAssets : MonoBehaviour
 
     public Transform transformSpawnItem;
     
-    //All you need to add is the sprites to here
+    //All you need to add is the sprites to here (EDITABLE)
     public Sprite appleSprite;
     public Sprite orangeSprite;
 }

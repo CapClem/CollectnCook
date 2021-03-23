@@ -10,30 +10,41 @@ public class Inventory_UI : MonoBehaviour
 {
     //Add an inventory to the script
     private Inventory inventory;
-    private Transform itemSlot;
-    private Transform itemSlotTemplate;
+    public Transform itemSlot;
+    public Transform itemSlotTemplate;
     
     [Tooltip("This should be set to how big you want the inventory to be x, y.")]
     public Vector2 inventoryGridSize;
-
-    private void Awake()
-    {
-        itemSlot = transform.Find("itemSlot");
-        itemSlotTemplate = itemSlot.Find("itemSlotTemplate");
-    }
 
     //Set the current inventory
     public void SetInventory(Inventory inventory)
     {
         this.inventory = inventory;
+        
+        //Subscribe to the event from "Inventory" to refresh the inventory UI when the item is added to inventory
+        inventory.OnItemListChanged += OnItemListChanged;
         RefreshInventory();
     }
 
+    private void OnItemListChanged()
+    {
+        RefreshInventory();
+    }
+    
+
     private void RefreshInventory()
     {
+        //Check each child in the container eg the inventory grid, destroy them not the template.
+        foreach (Transform child in itemSlot)
+        {
+            //If template skip
+            if (child == itemSlotTemplate) continue;
+            //Otherwise destroy
+            Destroy(child.gameObject);
+        }
         Vector2 currentContainer = new Vector2(0, 0);
         
-        float itemContainerSize = 30f;
+        float itemContainerSize = 50f;
         
         foreach (ItemBase item in inventory.GetItems())
         {
@@ -41,7 +52,7 @@ public class Inventory_UI : MonoBehaviour
             itemSlotRectTransform.gameObject.SetActive(true);
             
             itemSlotRectTransform.anchoredPosition = new Vector2(currentContainer.x * itemContainerSize, currentContainer.y * itemContainerSize);
-            Image image = itemSlotRectTransform.Find("image").GetComponent<Image>();
+            Image image = itemSlotRectTransform.Find("Sprite").GetComponent<Image>();
             image.sprite = item.GetSprite();
             
             //This increases sideways along the item bar
@@ -51,13 +62,6 @@ public class Inventory_UI : MonoBehaviour
                 currentContainer.x = 0;
                 currentContainer.y++;
             }
-            
-            
         }
     }
-    
-    
-    
-    
-    
 }
