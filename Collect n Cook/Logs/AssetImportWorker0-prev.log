@@ -15,11 +15,11 @@ C:/Users/Jacob Clements/Desktop/CollectnCook/Collect n Cook
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50229
+51075
 Successfully changed project path to: C:/Users/Jacob Clements/Desktop/CollectnCook/Collect n Cook
 C:/Users/Jacob Clements/Desktop/CollectnCook/Collect n Cook
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 69.63 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 76.79 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.4f1 (becced5a802b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/Resources/UnitySubsystems
@@ -35,100 +35,52 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56500
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006045 seconds.
+Registered in 0.006339 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 70.96 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 74.71 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.881 seconds
+- Completed reload, in  4.011 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001485 seconds.
+Registered in 0.001536 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.504 seconds
+- Completed reload, in  1.619 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1412 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 150.9 MB.
 System memory in use after: 150.9 MB.
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1875.
-Total: 2.609200 ms (FindLiveObjects: 0.339400 ms CreateObjectMapping: 0.088400 ms MarkObjects: 2.047100 ms  DeleteObjects: 0.132400 ms)
+Total: 2.408400 ms (FindLiveObjects: 0.324800 ms CreateObjectMapping: 0.083600 ms MarkObjects: 1.883200 ms  DeleteObjects: 0.115500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Map Materials/land-green.mat
-  artifactKey: Guid(db40c274802c31046be6ff0dfb136100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map Materials/land-green.mat using Guid(db40c274802c31046be6ff0dfb136100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c5aceece7b4b6db693069539f0f977') in 0.180034 seconds
-  Import took 0.183415 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/Map Materials/land2.mat
-  artifactKey: Guid(6378f98598966784ab1e04c7807aa7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map Materials/land2.mat using Guid(6378f98598966784ab1e04c7807aa7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c408e1a8f7ecf101f92a2423cc19c4') in 0.028443 seconds
-  Import took 0.031607 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Map Materials/land.mat
-  artifactKey: Guid(90ab0435d1303dd41a566fdfee8ab7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map Materials/land.mat using Guid(90ab0435d1303dd41a566fdfee8ab7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c4962e06deec02f892f7e596dfb7ad') in 0.028971 seconds
-  Import took 0.032695 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Map Materials/land-brown.mat
-  artifactKey: Guid(b0a2589fb439c2840865e33c78441111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map Materials/land-brown.mat using Guid(b0a2589fb439c2840865e33c78441111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4360ca92e56a352f368634489af82873') in 0.028558 seconds
-  Import took 0.032372 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Map Materials/land-brown2.mat
-  artifactKey: Guid(5472c91f066b36b44939ebf34a9f56cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map Materials/land-brown2.mat using Guid(5472c91f066b36b44939ebf34a9f56cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061bb29f9699f47338b368269f2791f5') in 0.029691 seconds
-  Import took 0.033234 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Map Materials/land-green2.mat
-  artifactKey: Guid(2ccff3f0dd86a904f9e4e27c09e1e24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map Materials/land-green2.mat using Guid(2ccff3f0dd86a904f9e4e27c09e1e24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8610ed60c16849cdf55fdd60c66228a4') in 0.026957 seconds
-  Import took 0.030184 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.039809 seconds.
-  path: Assets/Scenes/MapScene.unity
-  artifactKey: Guid(b69ee22e15c61674fb6c03ba3c024d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MapScene.unity using Guid(b69ee22e15c61674fb6c03ba3c024d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d4cfa5c1086329a41362a6100ebf4a') in 0.012574 seconds
-  Import took 0.016395 seconds .
+  path: Assets/Scenes/InventoryDemoScene.unity
+  artifactKey: Guid(f2d8ba7af8a63224c830a31b11de69bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InventoryDemoScene.unity using Guid(f2d8ba7af8a63224c830a31b11de69bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28dde66bd728596418ada06960a739c6') in 0.028558 seconds
+  Import took 0.032350 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
