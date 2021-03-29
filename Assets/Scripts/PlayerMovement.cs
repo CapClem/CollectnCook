@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public CharacterController controller;
+    [SerializeField]
+    CharacterController controller;
 
-    public float speed = 5f;
-    public float gravity = -100f;
-    public float jumpHeight = 4f;
-    public float speedBoost = 7f;
+    public float speed = 2f;
+    public float gravity = -30f;
+    public float jumpHeight = 1f;
+    public float speedBoost = 2f;
 
     Vector3 velocity;
 
@@ -82,6 +83,28 @@ public class PlayerMovement : MonoBehaviour
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
         }
 
+        //Strife Left
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            animator.SetFloat("strifeLeft", 1f);
+        }
+
+        else if (Input.GetKeyUp(KeyCode.A))
+        {
+            animator.SetFloat("strifeLeft", 0f);
+        }
+
+        //Strife Right
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            animator.SetFloat("strifeRight", 1f);
+        }
+
+        else if (Input.GetKeyUp(KeyCode.D))
+        {
+            animator.SetFloat("strifeRight", 0f);
+        }
+
         //Animation if statement for running
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
@@ -108,12 +131,14 @@ public class PlayerMovement : MonoBehaviour
         //Animation if statement for jumping
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
+            animator.SetTrigger("isJumping");
             //SoundManager.PlaySFX("JumpLanding");
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);      
         }
 
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
+        
     }
     void OnDrawGizmosSelected()
     {
