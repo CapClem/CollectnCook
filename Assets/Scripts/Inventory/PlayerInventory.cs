@@ -26,10 +26,11 @@ public class PlayerInventory : MonoBehaviour
         inventoryUI.gameObject.SetActive(false);
 
         //So we ask to spawn the item with SpawnThisItem, give it a position, tell it what item and how much. (EDITABLE)
-        ThisItem.SpawnThisItem(new Vector3(2,0,0), new ItemBase {itemType = ItemBase.ItemType.Apple, itemCount = 1});
-        ThisItem.SpawnThisItem(new Vector3(0,2,0), new ItemBase {itemType = ItemBase.ItemType.Orange, itemCount = 1});
-        ThisItem.SpawnThisItem(new Vector3(3,0,0), new ItemBase {itemType = ItemBase.ItemType.Orange, itemCount = 1});
-        ThisItem.SpawnThisItem(new Vector3(0,3,0), new ItemBase {itemType = ItemBase.ItemType.Orange, itemCount = 1});
+        ThisItem.SpawnThisItem(new Vector3(67, 0.5f, -24), new ItemBase {itemType = ItemBase.ItemType.Apple, itemCount = 1});
+        ThisItem.SpawnThisItem(new Vector3(63, 0.5f, -26), new ItemBase { itemType = ItemBase.ItemType.Orange, itemCount = 1 });
+        //ThisItem.SpawnThisItem(new Vector3(3,0,0), new ItemBase {itemType = ItemBase.ItemType.Orange, itemCount = 1});
+        //ThisItem.SpawnThisItem(new Vector3(0,3,0), new ItemBase {itemType = ItemBase.ItemType.Orange, itemCount = 1});
+
         //Spawn multiple instead randomly
         //for (int i = 0; i < 10; i++)
         //{
@@ -53,14 +54,17 @@ public class PlayerInventory : MonoBehaviour
     }
 
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter(Collider other)
     {
         ThisItem thisItem = other.GetComponent<ThisItem>(); //See if we can get the item from get component
         if (thisItem != null) //If not null this is an item
         {
+            Debug.Log
+
             inventory.AddItem(thisItem.PickupItem());
             thisItem.DestroySelf();
         }
+        
     }
     
     

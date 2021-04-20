@@ -27,10 +27,9 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField]
     LayerMask groundMask;
-    //public float waterDistance = 0.4f;
-    //public LayerMask waterMask;
+    
     bool isGrounded;
-    //public bool isWatered;
+    
 
     float downTime, pressTime = 0;
     float countDown = 5.0f;
@@ -51,18 +50,14 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
-        //isWatered = Physics.CheckSphere(groundCheck.position, waterDistance, waterMask);
+        
         
         if (isGrounded && velocity.y < 0)
         {
             velocity.y = -2f;
         }
 
-     /*   if (isWatered)
-        {
-            Debug.Log("In water");
-        }
-     */
+    
         float x = Input.GetAxis("Horizontal");
         walkingV = Input.GetAxis("Vertical");
   
@@ -119,12 +114,6 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetFloat("Running", 0f);
 
-            if (Time.time >= pressTime)
-            {
-                //SoundManager.PlaySFX("HBreathing");
-            }
-
-            //SoundManager.PlaySFX("HBreathing");
             speed -= speedBoost;        
         }
 
