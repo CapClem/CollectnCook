@@ -12,6 +12,8 @@ public class ItemAssets : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+
+        carrotSprite = Resources.Load<Sprite>("Sprites/image0.png");
     }
     //Make this a singleton (DO NOT EDIT)
 
@@ -20,4 +22,5 @@ public class ItemAssets : MonoBehaviour
     //All you need to add is the sprites to here (EDITABLE)
     public Sprite appleSprite;
     public Sprite orangeSprite;
+    public Sprite carrotSprite;
 }

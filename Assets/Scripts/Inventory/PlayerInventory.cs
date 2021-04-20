@@ -59,7 +59,6 @@ public class PlayerInventory : MonoBehaviour
         ThisItem thisItem = other.GetComponent<ThisItem>(); //See if we can get the item from get component
         if (thisItem != null) //If not null this is an item
         {
-            Debug.Log
 
             inventory.AddItem(thisItem.PickupItem());
             thisItem.DestroySelf();

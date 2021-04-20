@@ -53,8 +53,13 @@ public class Inventory_UI : MonoBehaviour
             
             itemSlotRectTransform.anchoredPosition = new Vector2(currentContainer.x * itemContainerSize, currentContainer.y * itemContainerSize);
             Image image = itemSlotRectTransform.Find("Sprite").GetComponent<Image>();
-            image.sprite = item.GetSprite();
-            
+
+            if (image != null)
+            {
+                Debug.Log("test!");
+                image.sprite = item.GetSprite();
+            }
+
             //This increases sideways along the item bar
             currentContainer.x++;
             if (currentContainer.x > inventoryGridSize.x) //When it hits the boundary it will go down a line

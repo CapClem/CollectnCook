@@ -12,14 +12,26 @@ public class ThisItem : MonoBehaviour
         thisItem.SetItem(item); //Sets the item to whatever we wanted it to be
         return thisItem; //Returns the final variable
     }
-    private ItemBase item;
+    public ItemBase item;
     private SpriteRenderer spriteRenderer;
+    public bool wasPlaced;
+    public ItemBase.ItemType itemType;
+    public int count;
 
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
+    public void Start()
+    {
+        if (wasPlaced)
+        {
+            item = new ItemBase();
+            item.itemType = itemType;
+            item.itemCount = count;
+        }
+    }
 
     public void SetItem(ItemBase item) //Ask the item
     {
