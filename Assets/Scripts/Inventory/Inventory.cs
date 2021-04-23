@@ -1,42 +1,36 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Timeline.Actions;
 using UnityEngine;
-
-//This is where the inventory stores it's main functions\\
 
 public class Inventory
 {
-    //Changes the inventory UI to reflect changes to current Inventory
-    public event Action OnItemListChanged;
-    
-    //List to hold all our items
-    private List<ItemBase> currentItems;
+    public event EventHandler OnItemListChanged;
+
+    private List<Item> itemList;
 
     public Inventory()
     {
-        //Initialise our list
-        currentItems = new List<ItemBase>();
-        
-        //Example on how to add items directly to the inventory. This adds an Apple.
-        //AddItem(new ItemBase {itemType = ItemBase.ItemType.Apple, itemCount = 1});
+        itemList = new List<Item>();
+
+        //this will directly add items in the inventory panel and during pick up it will update the list
+
+        AddItem(new Item { itemType = Item.ItemType.Apple, amount = 1 });
+        AddItem(new Item { itemType = Item.ItemType.Orange, amount = 1 });
+        AddItem(new Item { itemType = Item.ItemType.Banana, amount = 1 });
+        AddItem(new Item { itemType = Item.ItemType.Mushroom, amount = 1 });
+
     }
 
-    public void AddItem(ItemBase item)
-    {
-        //Allows us to pass in "item" to be added to the inventory
-        currentItems.Add(item);
-        
-        //This runs the event to refresh the inventory UI
-        OnItemListChanged.Invoke();
+    public void AddItem(Item item)
+    { 
+        //on player trigger enter this will add the item inthe inventory panel
+        itemList.Add(item);
+        OnItemListChanged?.Invoke(this, EventArgs.Empty);
     }
 
-
-
-    public List<ItemBase> GetItems()
+    public List<Item> GetItemList()
     {
-        //Checks our list to see what's in it
-        return currentItems;
+        return itemList;
     }
 }
