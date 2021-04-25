@@ -1,23 +1,32 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//This is for storing anything related to the inventory otherwise not stated. eg. sprites\\
-
 public class ItemAssets : MonoBehaviour
 {
-    //Make this a singleton (DO NOT EDIT)
+
+    //items get declared in here 
+
     public static ItemAssets Instance { get; private set; }
+
     private void Awake()
     {
         Instance = this;
     }
-    //Make this a singleton (DO NOT EDIT)
 
-    public Transform transformSpawnItem;
     
-    //All you need to add is the sprites to here (EDITABLE)
+
+    //public Transform ItemWorldpf;
+    
+
     public Sprite appleSprite;
     public Sprite orangeSprite;
+    public Sprite bananaSprite;
+    public Sprite mushroomSprite;
+
+    public Transform apple3D;
+    public Transform orange3D;
+    public Transform banana3D;
+    public Transform mushroom3D;
+
 }

@@ -1,23 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField]
-    CharacterController controller;
-
     public float speed = 2f;
     public float gravity = -30f;
     public float jumpHeight = 1f;
     public float speedBoost = 2f;
 
     Vector3 velocity;
+    float walkingV;
 
     [SerializeField]
-    Animator animator;
+    CharacterController controller;
 
-    float walkingV;
+    [SerializeField]
+    Animator animator; 
 
     [SerializeField]
     Transform groundCheck;
@@ -26,43 +26,79 @@ public class PlayerMovement : MonoBehaviour
     float groundDistance = 0.4f;
 
     [SerializeField]
-    LayerMask groundMask;
-    //public float waterDistance = 0.4f;
-    //public LayerMask waterMask;
+    LayerMask groundMask; 
+
+    [SerializeField]
+    float turnSmoothTime = 0.1f;
+    float turnSmoothVelocity;
+
+    [SerializeField]
+    Transform cam;
+
+    [SerializeField]
+    private UI_Inventory uiInventory;
+
     bool isGrounded;
-    //public bool isWatered;
 
     float downTime, pressTime = 0;
     float countDown = 5.0f;
 
-    [SerializeField]
-    float turnSmoothTime = 0.1f;
+    private Inventory inventory;
 
-    float turnSmoothVelocity;
-    [SerializeField]
-    Transform cam;
+   
 
     void Start()
     {
+
+        
+
         animator = this.gameObject.GetComponent<Animator>();
+      
+        inventory = new Inventory();
+        uiInventory.SetInventory(inventory);
+
+
+        //this will spawn the item in the world wihch Vector3 position needs to be specified and amount to be spawned
+        ItemWorld.SpawnItemWorldApple(new Vector3(68.15f, 0.17f, -21.03f), new Item { itemType3D = Item.ItemType3D.Apple3D, amount = 1 });
+        ItemWorldOrange.SpawnItemWorldOrange(new Vector3(65.15f, 0.17f, -20.03f), new Item { itemType3D = Item.ItemType3D.Orange3D, amount = 1 });
+        ItemWorld.SpawnItemWorldBanana(new Vector3(70, 0.17f, -20.03f), new Item { itemType3D = Item.ItemType3D.Banana3D, amount = 1 });
+        ItemWorld.SpawnItemWorldMushroom(new Vector3(70.762f, 0.17f, -23.364f), new Item { itemType3D = Item.ItemType3D.Mushroom3D, amount = 1 });
+    }
+
+    private void OnTriggerEnter(Collider collider)
+    {
+
+        //this function is where picking up items happened and added to the inventory panel
+        ItemWorld itemWorld = collider.GetComponent<ItemWorld>();
+
+        ItemWorldOrange itemWorldOrange = collider.GetComponent<ItemWorldOrange>();
+
+        if (itemWorld != null)
+        { 
+            inventory.AddItem(itemWorld.GetItem());
+            itemWorld.DestroySelf();
+        }
+
+        if (itemWorldOrange != null)
+        {
+            inventory.AddItem(itemWorldOrange.GetItem());
+            
+            itemWorldOrange.DestroySelf();
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
-        //isWatered = Physics.CheckSphere(groundCheck.position, waterDistance, waterMask);
+        
         
         if (isGrounded && velocity.y < 0)
         {
             velocity.y = -2f;
         }
 
-     /*   if (isWatered)
-        {
-            Debug.Log("In water");
-        }
-     */
+    
         float x = Input.GetAxis("Horizontal");
         walkingV = Input.GetAxis("Vertical");
   
@@ -119,12 +155,6 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetFloat("Running", 0f);
 
-            if (Time.time >= pressTime)
-            {
-                //SoundManager.PlaySFX("HBreathing");
-            }
-
-            //SoundManager.PlaySFX("HBreathing");
             speed -= speedBoost;        
         }
 
@@ -140,6 +170,7 @@ public class PlayerMovement : MonoBehaviour
         controller.Move(velocity * Time.deltaTime);
         
     }
+
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
