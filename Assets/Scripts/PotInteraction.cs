@@ -41,6 +41,22 @@ public class PotInteraction : MonoBehaviour
             cookingMode = true; //make sure when cooking is closed this is set to false
 
         }
+
+        if (cookingMode = true && (Input.GetKeyDown(KeyCode.V)))
+        {
+            MapCamera.SetActive(true);
+            CookingCamera.SetActive(false);
+            CookBookPanel.SetActive(false);
+            InventoryPanel.SetActive(false);
+            UIObject.SetActive(true);
+            UIbackground.SetActive(true);
+            Player.SetActive(true);
+            Inventory.SetActive(true);
+            cookingMode = false;
+
+            //add stuff
+            Debug.Log("closed cooking menu");
+        }
     }
 
     void OnTriggerEnter(Collider player)
