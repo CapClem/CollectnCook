@@ -26,36 +26,18 @@ public class PotInteraction : MonoBehaviour
     }
     void Update()
     {
-        if(active && (Input.GetKeyDown(KeyCode.C)))
+        if (active && (Input.GetKeyDown(KeyCode.C)))
         {
-            MapCamera.SetActive(false);
-            CookingCamera.SetActive(true);
-            CookBookPanel.SetActive(true);
-            InventoryPanel.SetActive(true);
-            Debug.Log("cooking activated");
-            UIObject.SetActive(false);
-            UIbackground.SetActive(false);
-            Player.SetActive(false);
-            Debug.Log("it's all inactive, cook for your life");
-            Inventory.SetActive(false);
-            cookingMode = true; //make sure when cooking is closed this is set to false
 
+            CookingModeActivated();
+            
         }
 
-        if (cookingMode = true && (Input.GetKeyDown(KeyCode.V)))
+        else if (cookingMode == true && (Input.GetKeyDown(KeyCode.V)))
         {
-            MapCamera.SetActive(true);
-            CookingCamera.SetActive(false);
-            CookBookPanel.SetActive(false);
-            InventoryPanel.SetActive(false);
-            UIObject.SetActive(true);
-            UIbackground.SetActive(true);
-            Player.SetActive(true);
-            Inventory.SetActive(true);
-            cookingMode = false;
 
-            //add stuff
-            Debug.Log("closed cooking menu");
+            CookingModeDeactivate();
+            
         }
     }
 
@@ -68,7 +50,6 @@ public class PotInteraction : MonoBehaviour
             active = true;
         }
       
-
     }
     void OnTriggerExit(Collider player)
     {
@@ -78,5 +59,41 @@ public class PotInteraction : MonoBehaviour
             UIbackground.SetActive(false);
             active = false;
         }
+    }
+
+    public void CookingModeActivated()
+    {
+        MapCamera.SetActive(false);
+
+        CookingCamera.SetActive(true);
+        CookBookPanel.SetActive(true);
+        InventoryPanel.SetActive(true);
+        Debug.Log("cooking activated");
+
+        UIObject.SetActive(false);
+        UIbackground.SetActive(false);
+        Player.SetActive(false);
+        Debug.Log("it's all inactive, cook for your life");
+
+        Inventory.SetActive(false);
+        cookingMode = true; //make sure when cooking is closed this is set to false
+    }
+
+    public void CookingModeDeactivate()
+    {
+        MapCamera.SetActive(true);
+
+        CookingCamera.SetActive(false);
+        CookBookPanel.SetActive(false);
+        InventoryPanel.SetActive(false);
+
+        UIObject.SetActive(true);
+        UIbackground.SetActive(true);
+        Player.SetActive(true);
+        Inventory.SetActive(true);
+        cookingMode = false;
+
+        //add stuff
+        Debug.Log("closed cooking menu");
     }
 }
