@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BeetRoot : MonoBehaviour, IInventoryItem
 {
+   
     public string Name
     {
         get

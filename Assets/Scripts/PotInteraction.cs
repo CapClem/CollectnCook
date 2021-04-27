@@ -4,20 +4,23 @@ using UnityEngine;
 
 public class PotInteraction : MonoBehaviour
 {
+    public Inventory inventoryFullMessage;
+
     public GameObject UIObject;
     public GameObject UIbackground;
     public GameObject MapCamera;
     public GameObject CookingCamera;
     public GameObject CookBookPanel;
     public GameObject InventoryPanel;
-    public bool active;
+
     public GameObject Player;
     public GameObject Inventory;
+
+    public bool active;
     public bool cookingMode;
 
     void Start()
     {
-
         UIObject.SetActive(false);
         UIbackground.SetActive(false);
         CookingCamera.SetActive(false);
@@ -47,10 +50,12 @@ public class PotInteraction : MonoBehaviour
         {
             UIObject.SetActive(true);
             UIbackground.SetActive(true);
+            inventoryFullMessage.inventoryUIMessage.SetActive(false);
             active = true;
         }
       
     }
+
     void OnTriggerExit(Collider player)
     {
         if (player.gameObject.tag == ("Player"))
