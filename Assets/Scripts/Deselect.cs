@@ -8,5 +8,6 @@ public class Deselect : MonoBehaviour
     public void DeselectIngre()
     {
         this.GetComponent<Image>().sprite = null;
+
     }
 }

@@ -5,9 +5,7 @@ using UnityEngine.UI;
 
 public class CookingHandler : MonoBehaviour
 {
-    public GameObject cSlot1;
-    public GameObject cSlot2;
-    public GameObject cSlot3;
+    public GameObject[] cSlot;
     public GameObject result;
 
     
@@ -24,30 +22,35 @@ public class CookingHandler : MonoBehaviour
         
     }
 
-    private void CookingPanel_ItemAdded(object sender, InventoryEventArgs e)
+    //private void CookingPanel_ItemAdded(object sender, InventoryEventArgs e)
+    //{
+    //    Transform cookingPanel = transform.Find("CookBookPanel");
+    //    foreach(Transform cSlot in cookingPanel)
+    //    {
+    //        Image image = cSlot.GetChild(0).GetComponent<Image>();
+
+    //        if (!image.enabled)
+    //        {
+    //            image.enabled = true;
+    //            image.sprite = e.Item.Image;
+
+    //            break;
+    //        }
+    //    }
+    //}
+
+    public void ComboList(/*Sprite sprite*/)
     {
-        Transform cookingPanel = transform.Find("CookBookPanel");
-        foreach(Transform cSlot in cookingPanel)
+        if (cSlot[0].GetComponent<Image>().sprite.name == "pumpkin" |
+            cSlot[1].GetComponent<Image>().sprite.name == "turnip" |
+            cSlot[2].GetComponent<Image>().sprite.name == "mushroom")
         {
-            Image image = cSlot.GetChild(0).GetComponent<Image>();
-
-            if (!image.enabled)
-            {
-                image.enabled = true;
-                image.sprite = e.Item.Image;
-
-                break;
-            }
+            print("it works");
         }
-    }
-
-    public void addIngre()
-    {
-        //cSlot1.GetComponent<Image>().sprite = 
-        //Reference to the slot
-        //reference to the object I'm clicking on
-        //Set the slot image to object image
-        Debug.Log(this.gameObject);
+        else
+        {
+            print("something wrong");
+        }
     }
 }
 

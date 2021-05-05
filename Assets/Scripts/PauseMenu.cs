@@ -42,7 +42,7 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(false);
         //camLinker.GetComponent<Cinemachine>().enabled = true;
         camLinker.SetActive(true);        
-        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.Confined;
         Time.timeScale = 1f;
         GameIsPaused = false;
     }
