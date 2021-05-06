@@ -8,10 +8,13 @@ public class SendIngredient : MonoBehaviour
     public GameObject slotchild;
     public Sprite spriteSend ;
     public GameObject booklink;
+   // AudioSource ButtonBlip;
+
     //int count = 0;
 
     void Start()
     {
+       // ButtonBlip = this.GetComponent<AudioSource>();
         booklink = GameObject.FindGameObjectWithTag("cookbook");
     }
 
@@ -39,6 +42,7 @@ public class SendIngredient : MonoBehaviour
         slotchild.GetComponent<Image>().enabled = false;
         this.GetComponent<Button>().enabled = false;
     }
+
 }
 //This code down the bottom was my first attempt at the if statement, something went wrong
 //if (e.GetComponent<Image>().sprite != null)

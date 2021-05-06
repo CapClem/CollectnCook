@@ -6,11 +6,13 @@ using UnityEngine.UI;
 public class HUD : MonoBehaviour
 {
     public Inventory Inventory;
+    
 
     // Start is called before the first frame update
     void Start()
     {
         Inventory.ItemAdded += InventoryScript_ItemAdded;
+
     }
     private void InventoryScript_ItemAdded(object sender, InventoryEventArgs e)
     {
